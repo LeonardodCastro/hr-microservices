@@ -12,6 +12,7 @@ public class User implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    private String email;
     private String password;
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
@@ -21,6 +22,14 @@ public class User implements Serializable {
     )
     private Set<Role> roles = new HashSet<>();
     public User() {
+    }
+
+    public User(Long id, String name, String email, String password, Set<Role> roles) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.roles = roles;
     }
 
     public Long getId() {
@@ -53,5 +62,13 @@ public class User implements Serializable {
 
     public void setRoles(Set<Role> roles) {
         this.roles = roles;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
