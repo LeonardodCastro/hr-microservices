@@ -21,8 +21,8 @@ import java.util.List;
 public class WorkerResource {
     private static Logger logger = LoggerFactory.getLogger(WorkerResource.class);
 
-    @Value("${test.config}")
-    private String testConfig;
+//    @Value("${test.config}")
+//    private String testConfig;
     @Autowired
     private Environment env;
     @Autowired
@@ -42,7 +42,7 @@ public class WorkerResource {
     }
     @GetMapping("/configs")
     public ResponseEntity<Void> configs(){
-        logger.info("config = " + testConfig);
+//        logger.info("config = " + testConfig);
         return ResponseEntity.notFound().build();
     }
 }
