@@ -26,5 +26,5 @@ The Zuul gateway is wraping big part of the project making a unique bridge betwe
 
 Finally I drew three instances of worker just to show the system is capable of create and kill instances (scalabe) taking benefits of load balance and keeping the ephemerality.
 
-<img>!<img width="931" alt="Captura de Tela 2023-10-31 às 10 37 23" src="https://github.com/LeonardodCastro/hr-microservices/assets/134518796/b07ca782-2188-4c5a-a5d5-6a5238526af1">
+<img><img width="931" alt="Captura de Tela 2023-10-31 às 10 37 23" src="https://github.com/LeonardodCastro/hr-microservices/assets/134518796/b07ca782-2188-4c5a-a5d5-6a5238526af1">
 
