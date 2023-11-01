@@ -13,7 +13,8 @@ Mono repo with seven projects as microservices built using [Spring Cloud](https:
 ## Conceptual Model 
 This UML (Unified Modeling Language) its quite simple having just few entities and one relashionship between users and roles (ManyToMany). The project focus is on Spring Cloud solutions implementations and the architeture as well.
 
-<img>![Captura de Tela 2023-11-01 às 10.49.03.png](..%2F..%2Fyt%20stuff%2FGravacoes%2FCaptura%20de%20Tela%202023-11-01%20%C3%A0s%2010.49.03.png)
+<img>!<img width="996" alt="Captura de Tela 2023-11-01 às 10 49 03" src="https://github.com/LeonardodCastro/hr-microservices/assets/134518796/a8886cc8-ffe6-4c25-b179-efa20babc5f8">
+
 
 
 
@@ -25,4 +26,5 @@ The Zuul gateway is wraping big part of the project making a unique bridge betwe
 
 Finally I drew three instances of worker just to show the system is capable of create and kill instances (scalabe) taking benefits of load balance and keeping the ephemerality.
 
-<img>![Captura de Tela 2023-10-31 às 10.37.23.png](..%2F..%2Fyt%20stuff%2FGravacoes%2FCaptura%20de%20Tela%202023-10-31%20%C3%A0s%2010.37.23.png)
+<img>!<img width="931" alt="Captura de Tela 2023-10-31 às 10 37 23" src="https://github.com/LeonardodCastro/hr-microservices/assets/134518796/b07ca782-2188-4c5a-a5d5-6a5238526af1">
+
