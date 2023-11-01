@@ -1,5 +1,10 @@
 # Human Resources System
 
+
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)![alt text](https://img.shields.io/badge/docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white) 
+![alt text](https://img.shields.io/badge/postgreSQL-4169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+
 Mono repo with seven projects as microservices built using [Spring Cloud](https://spring.io/projects/spring-cloud) and tools such as:
 - [Feign](https://spring.io/projects/spring-cloud-openfeign): For API request between microservices
 - Client-side load balancer with [Ribbon](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-ribbon.html)
